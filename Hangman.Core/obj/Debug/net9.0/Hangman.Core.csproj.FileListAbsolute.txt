@@ -1,0 +1,15 @@
+C:\Users\mobil\Desktop\Coding-Projects\HangmanGameSln\Hangman.Core\bin\Debug\net9.0\Hangman.Core.deps.json
+C:\Users\mobil\Desktop\Coding-Projects\HangmanGameSln\Hangman.Core\bin\Debug\net9.0\Hangman.Core.dll
+C:\Users\mobil\Desktop\Coding-Projects\HangmanGameSln\Hangman.Core\bin\Debug\net9.0\Hangman.Core.pdb
+C:\Users\mobil\Desktop\Coding-Projects\HangmanGameSln\Hangman.Core\bin\Debug\net9.0\HangmanRenderer.dll
+C:\Users\mobil\Desktop\Coding-Projects\HangmanGameSln\Hangman.Core\obj\Debug\net9.0\Hangman.Core.csproj.AssemblyReference.cache
+C:\Users\mobil\Desktop\Coding-Projects\HangmanGameSln\Hangman.Core\obj\Debug\net9.0\Hangman.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mobil\Desktop\Coding-Projects\HangmanGameSln\Hangman.Core\obj\Debug\net9.0\Hangman.Core.AssemblyInfoInputs.cache
+C:\Users\mobil\Desktop\Coding-Projects\HangmanGameSln\Hangman.Core\obj\Debug\net9.0\Hangman.Core.AssemblyInfo.cs
+C:\Users\mobil\Desktop\Coding-Projects\HangmanGameSln\Hangman.Core\obj\Debug\net9.0\Hangman.Core.csproj.CoreCompileInputs.cache
+C:\Users\mobil\Desktop\Coding-Projects\HangmanGameSln\Hangman.Core\obj\Debug\net9.0\Hangman.Core.sourcelink.json
+C:\Users\mobil\Desktop\Coding-Projects\HangmanGameSln\Hangman.Core\obj\Debug\net9.0\Hangman..08BD5E72.Up2Date
+C:\Users\mobil\Desktop\Coding-Projects\HangmanGameSln\Hangman.Core\obj\Debug\net9.0\Hangman.Core.dll
+C:\Users\mobil\Desktop\Coding-Projects\HangmanGameSln\Hangman.Core\obj\Debug\net9.0\refint\Hangman.Core.dll
+C:\Users\mobil\Desktop\Coding-Projects\HangmanGameSln\Hangman.Core\obj\Debug\net9.0\Hangman.Core.pdb
+C:\Users\mobil\Desktop\Coding-Projects\HangmanGameSln\Hangman.Core\obj\Debug\net9.0\ref\Hangman.Core.dll

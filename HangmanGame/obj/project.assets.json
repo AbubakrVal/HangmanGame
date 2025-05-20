@@ -1,0 +1,92 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "Hangman.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Hangman.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Hangman.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Hangman.Core/1.0.0": {
+      "type": "project",
+      "path": "../Hangman.Core/Hangman.Core.csproj",
+      "msbuildProject": "../Hangman.Core/Hangman.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "Hangman.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\mobil\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\mobil\\Desktop\\Coding-Projects\\HangmanGameSln\\HangmanGame\\HangmanGameConsole.csproj",
+      "projectName": "HangmanGameConsole",
+      "projectPath": "C:\\Users\\mobil\\Desktop\\Coding-Projects\\HangmanGameSln\\HangmanGame\\HangmanGameConsole.csproj",
+      "packagesPath": "C:\\Users\\mobil\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mobil\\Desktop\\Coding-Projects\\HangmanGameSln\\HangmanGame\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\mobil\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "C:\\Users\\mobil\\Desktop\\Coding-Projects\\HangmanGameSln\\Hangman.Core\\Hangman.Core.csproj": {
+              "projectPath": "C:\\Users\\mobil\\Desktop\\Coding-Projects\\HangmanGameSln\\Hangman.Core\\Hangman.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

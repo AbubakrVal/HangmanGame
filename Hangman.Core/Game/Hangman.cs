@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using HangmanRenderer.Renderer;
 
 namespace Hangman.Core.Game
@@ -7,26 +8,54 @@ namespace Hangman.Core.Game
     {
         private GallowsRenderer _renderer;
 
-        public HangmanGame()
+    public HangmanGame()
+    {
+        _renderer = new GallowsRenderer();
+    }
+
+    public void RenderGallows(int x, int y, int wrongAttempts)
+    {
+        // Clear the gallows area (7 lines tall)
+        for (int line = 0; line < 7; line++)
         {
-            _renderer = new GallowsRenderer();
+            Console.SetCursorPosition(x, y + line);
+            Console.Write(new string(' ', Console.WindowWidth));
         }
 
-        public void Run()
+        // Render the gallows at (x, y)
+        _renderer.Render(x, y, wrongAttempts);
+    }
+
+        // Display the word with underscores for unguessed letters
+        public int PrintWord(List<char> guessedLetters, string randomWord)
         {
-            _renderer.Render(5, 5, 6);
+            Console.SetCursorPosition(0, 8);
+            Console.Write(new string(' ', Console.WindowWidth)); 
+            Console.SetCursorPosition(0, 8);
 
-            Console.SetCursorPosition(0, 13);
-            Console.ForegroundColor = ConsoleColor.Blue;
-            Console.Write("Your current guess: ");
-            Console.WriteLine("--------------");
-            Console.SetCursorPosition(0, 15);
-
-            Console.ForegroundColor = ConsoleColor.Green;
-
-            Console.Write("What is your next guess: ");
-            var nextGuess = Console.ReadLine();
+            int rightLetters = 0;
+            foreach (char c in randomWord)
+            {
+                if (guessedLetters.Contains(c))
+                {
+                    Console.Write(c + " ");
+                    rightLetters++;
+                }
+                else
+                {
+                    Console.Write("_ ");
+                }
+            }
+            return rightLetters;
         }
 
+        
+        public void PrintLines(string randomWord)
+        {
+            Console.SetCursorPosition(0, 9); 
+            Console.Write(new string(' ', Console.WindowWidth));
+            Console.SetCursorPosition(0, 9);
+            Console.WriteLine(new string('-', randomWord.Length *2));
+        }
     }
 }
