@@ -15,18 +15,18 @@ namespace Hangman.Core.Game
 
     public void RenderGallows(int x, int y, int wrongAttempts)
     {
-        // Clear the gallows area (7 lines tall)
+        
         for (int line = 0; line < 7; line++)
         {
             Console.SetCursorPosition(x, y + line);
             Console.Write(new string(' ', Console.WindowWidth));
         }
 
-        // Render the gallows at (x, y)
+        
         _renderer.Render(x, y, wrongAttempts);
     }
 
-        // Display the word with underscores for unguessed letters
+        
         public int PrintWord(List<char> guessedLetters, string randomWord)
         {
             Console.SetCursorPosition(0, 8);
@@ -55,7 +55,8 @@ namespace Hangman.Core.Game
             Console.SetCursorPosition(0, 9); 
             Console.Write(new string(' ', Console.WindowWidth));
             Console.SetCursorPosition(0, 9);
-            Console.WriteLine(new string('-', randomWord.Length *2));
-        }
+            Console.WriteLine(new string(' ', randomWord.Length *2));
+      }
+      
     }
 }
